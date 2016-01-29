@@ -10,7 +10,7 @@ mix deps.get
 mix test
 ```
 
-All test should pass.
+All tests should pass.
 
 Modify `mix.lock` for `phoenix_html` to `2.5.0`
 
