@@ -5,14 +5,19 @@ Example app from Programming Phoenix.
 
 To replicate the build error.
 
-`mix deps.get`
-`mix test`
+```
+mix deps.get
+mix test
+```
 
 All test should pass.
 
 Modify `mix.lock` for `phoenix_html` to `2.5.0`
-`mix deps.get`
-`mix test`
+
+```
+mix deps.get
+mix test
+```
 
 The exception should occur.
 
