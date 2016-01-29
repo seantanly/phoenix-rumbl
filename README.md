@@ -43,3 +43,12 @@ The exception should occur.
        test/controllers/video_controller_test.exs:49
 
 ```
+
+Clear the `_build` folder and run tests again.
+
+```
+rm -rf _build
+mix test
+```
+
+The error disappears.
